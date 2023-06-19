@@ -1,14 +1,13 @@
 import React from "react";
-import styles from "./styles.module.scss";
 
 const Home = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.formContainer}>
+    <div className={"container"}>
+      <div className={"formContainer"}>
         <h1>{`<>DevRooms</>`}</h1>
-        <input className={styles.input} placeholder="Username..." />
+        <input className={"input"} placeholder="Username..." />
 
-        <select className={styles.input}>
+        <select className={"input"}>
           <option>-- Select Room --</option>
           <option value="javascript">JavaScript</option>
           <option value="node">Node</option>
